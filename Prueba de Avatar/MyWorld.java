@@ -60,21 +60,20 @@ public class MyWorld extends World
         addObject(ground11,100,540);
         enemy.setLocation(864,327);
         Left left = new Left();
-        addObject(left,400,400);
+        addObject(left,100,500);
         Left left2 = new Left();
-        addObject(left2,400,300);
+        addObject(left2,100,400);
         Right right = new Right();
-        addObject(right,800,400);
-        enemy.setLocation(724,327);
+        addObject(right,1100,500);
+        enemy.setLocation(800,300);
         Right right2 = new Right();
-        addObject(right2,800,300);
+        addObject(right2,1100,400);
         Roof roof = new Roof();
         addObject(roof,600,200);
         Ground ground12 = new Ground();
         addObject(ground12,800,240);
         Ground ground13 = new Ground();
         addObject(ground13,400,240);
-        enemy.setLocation(691,305);
     }
     
     public void youDied(){
